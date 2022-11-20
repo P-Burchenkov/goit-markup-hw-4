@@ -152,7 +152,8 @@ body {
 }
 
 .contacts .link {
-  display: block;
+  display: inline-flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -160,11 +161,17 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  fill: var(--main-text-color);
+}
+
+.contacts-icon {
+  margin-right: 10px;
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* HERO */
