@@ -249,6 +249,16 @@ body {
   letter-spacing: 0.03em;
 }
 
+.value-icon-container {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+
+  background-color: var(--secondary-background-color);
+}
+
+.value-icon {
+  display: block;
+}
 /* LABOURS */
 
 .labour-list {
