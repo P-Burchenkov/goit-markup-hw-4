@@ -70,8 +70,15 @@ body {
   color: var(--secondary-text-color);
 }
 
-.hidden {
-  display: none;
+.visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-title {
@@ -189,7 +196,7 @@ body {
 
   text-align: center;
   background-color: var(--banner-background-color);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/banner.jpg);
 }
 
@@ -356,7 +363,7 @@ body {
 
 .clients-link {
   display: inline-flex;
-  padding: 16px 32px;
+  padding: 15px 31px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 
