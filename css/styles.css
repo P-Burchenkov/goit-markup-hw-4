@@ -451,12 +451,11 @@ body {
   border-radius: 50%;
 
   background-color: rgba(255, 255, 255, 0.1);
-  fill: var(--background-icon-color);
+  fill: var(--white-color);
 }
 
 .foot-network-link:hover,
 .foot-network-link:focus {
-  fill: var(--white-color);
   background-color: var(--accent-color);
 }
 
@@ -527,11 +526,6 @@ body {
   width: 370px;
 }
 
-.work-list > .item:hover,
-.work-list > .item:focus {
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06);
-}
-
 /* .work-list .item:nth-last-child(n + 4) {
   margin-bottom: 30px;
 }
@@ -561,4 +555,13 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+}
+
+.work-list-link {
+  display: block;
+}
+
+.work-list-link:hover,
+.work-list-link:focus {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06);
 }
